@@ -21,4 +21,3 @@ Animals = new Meteor.Collection( "animals", {
 });
 ```
 
-Running at sampleClassGetter.meteor.com but to test it you will have to play with the console a bit.
