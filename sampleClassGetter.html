@@ -1,0 +1,19 @@
+<head>
+  <title>Sample</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> animals}}
+</body>
+
+<template name="animals">
+  {{#each animals}}
+    {{> animal}}
+  {{/each }}
+</template>
+
+<template name="animal">
+  {{name }}<br>
+  {{owner.name }}<br>
+</template>
